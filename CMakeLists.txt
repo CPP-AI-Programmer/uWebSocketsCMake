@@ -14,6 +14,7 @@ FetchContent_Declare(
 
 # Populate the content at configure time
 FetchContent_MakeAvailable(uWebSockets)
+add_subdirectory(src)
 
 # Add an alias target for the uWebSockets C API library
 add_library(uWebSockets_CAPI INTERFACE)
