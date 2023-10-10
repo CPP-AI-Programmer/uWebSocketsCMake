@@ -17,6 +17,7 @@ FetchContent_MakeAvailable(uWebSockets)
 
 # Add an alias target for the uWebSockets C API library
 add_library(uWebSockets_CAPI INTERFACE)
+add_library(uWebSockets_CAPI::uWebSockets_CAPI ALIAS uWebSockets_CAPI)
 target_link_libraries(uWebSockets_CAPI INTERFACE uWS::uWS)
 
 # Install the target and its headers
