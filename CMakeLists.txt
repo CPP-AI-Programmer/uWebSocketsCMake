@@ -8,7 +8,7 @@ project(uWebSockets_CAPI VERSION 0.1)
 include(FetchContent)
 FetchContent_Declare(
   uWebSockets
-  GIT_REPOSITORY [1](https://github.com/google/googletest.git)
+  GIT_REPOSITORY [5](https://github.com/google/googletest.git)
   GIT_TAG master # or use a specific commit hash or tag
 )
 
