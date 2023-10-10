@@ -9,7 +9,7 @@ include(FetchContent)
 FetchContent_Declare(
   uWebSockets
   GIT_REPOSITORY https://github.com/google/googletest.git
-  GIT_TAG master # or use a specific commit hash or tag
+  GIT_TAG main # or use a specific commit hash or tag
 )
 
 # Populate the content at configure time
